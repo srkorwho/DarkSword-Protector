@@ -2,6 +2,8 @@
 DarkSword-Protector utilizes WireGuard and mitmproxy to intercept, scan, and neutralize iOS exploit payloads at network-level.
 
 
+
+# How to setup on your server
 1. Clone the repository and run the setup script:
 ```bash
 wget https://raw.githubusercontent.com/srkorwho/DarkSword-Protector/refs/heads/main/deploy.sh
