@@ -238,7 +238,7 @@ class DarkSwordBlocker:
         content_type = flow.response.headers.get("Content-Type", "").lower()
         if any(skip_type in content_type for skip_type in ["image/", "video/", "audio/", "font/"]):
             return
-
+flow.response.decode()
         content = flow.response.content
         
 
